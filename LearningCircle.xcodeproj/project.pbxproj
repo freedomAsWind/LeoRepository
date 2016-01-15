@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACC46421C4646FF001CC07C /* LEOMyControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC46411C4646FF001CC07C /* LEOMyControllerTableViewController.m */; };
+		3A0779051C4622AF00DBEA9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0779041C4622AF00DBEA9E /* main.m */; };
+		3A0779101C4622AF00DBEA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A07790F1C4622AF00DBEA9E /* Assets.xcassets */; };
+		3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077B9C1C46434000DBEA9E /* AppDelegate.m */; };
+		3A077BA31C46443500DBEA9E /* LEOMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */; };
+		3A077BA61C46444E00DBEA9E /* LEOMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */; };
+		46751E371C464F9700362E8A /* GDNAnswerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46751E301C464F9700362E8A /* GDNAnswerController.m */; };
+		46751E381C464F9700362E8A /* GDAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46751E331C464F9700362E8A /* GDAnswerModel.m */; };
+		46751E391C464F9700362E8A /* answerNow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46751E361C464F9700362E8A /* answerNow.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ACC46401C4646FF001CC07C /* LEOMyControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOMyControllerTableViewController.h; path = ../../../../../../Documents/LEOMyControllerTableViewController.h; sourceTree = "<group>"; };
+		0ACC46411C4646FF001CC07C /* LEOMyControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOMyControllerTableViewController.m; path = ../../../../../../Documents/LEOMyControllerTableViewController.m; sourceTree = "<group>"; };
+		3A0779001C4622AF00DBEA9E /* LearningCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0779041C4622AF00DBEA9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A07790F1C4622AF00DBEA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A0779141C4622AF00DBEA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A077B9B1C46434000DBEA9E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A077B9C1C46434000DBEA9E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A077BA11C46443500DBEA9E /* LEOMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOMainTabBarController.h; sourceTree = "<group>"; };
+		3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainTabBarController.m; sourceTree = "<group>"; };
+		3A077BA41C46444E00DBEA9E /* LEOMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOMainNavController.h; sourceTree = "<group>"; };
+		3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainNavController.m; sourceTree = "<group>"; };
+		46751E2F1C464F9700362E8A /* GDNAnswerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNAnswerController.h; sourceTree = "<group>"; };
+		46751E301C464F9700362E8A /* GDNAnswerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNAnswerController.m; sourceTree = "<group>"; };
+		46751E321C464F9700362E8A /* GDAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDAnswerModel.h; sourceTree = "<group>"; };
+		46751E331C464F9700362E8A /* GDAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDAnswerModel.m; sourceTree = "<group>"; };
+		46751E361C464F9700362E8A /* answerNow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = answerNow.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A0778FD1C4622AF00DBEA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0778F71C4622AF00DBEA9E = {
+			isa = PBXGroup;
+			children = (
+				3A0779021C4622AF00DBEA9E /* LearningCircle */,
+				3A0779011C4622AF00DBEA9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A0779011C4622AF00DBEA9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A0779001C4622AF00DBEA9E /* LearningCircle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A0779021C4622AF00DBEA9E /* LearningCircle */ = {
+			isa = PBXGroup;
+			children = (
+				46751E2D1C464F9700362E8A /* 即时答 */,
+				3A077B4A1C4641A500DBEA9E /* 伙伴圈 */,
+				3A077B581C4641A500DBEA9E /* 今日大课 */,
+				3A077B5F1C4641A500DBEA9E /* 我 */,
+				3A077B661C4641A500DBEA9E /* main(主框架) */,
+				3A0779031C4622AF00DBEA9E /* Supporting Files */,
+			);
+			path = LearningCircle;
+			sourceTree = "<group>";
+		};
+		3A0779031C4622AF00DBEA9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A07790F1C4622AF00DBEA9E /* Assets.xcassets */,
+				3A0779141C4622AF00DBEA9E /* Info.plist */,
+				3A0779041C4622AF00DBEA9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A077B4A1C4641A500DBEA9E /* 伙伴圈 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B4B1C4641A500DBEA9E /* controllers */,
+				3A077B4C1C4641A500DBEA9E /* models */,
+				3A077B4D1C4641A500DBEA9E /* others */,
+				3A077B4E1C4641A500DBEA9E /* views */,
+			);
+			path = "伙伴圈";
+			sourceTree = "<group>";
+		};
+		3A077B4B1C4641A500DBEA9E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		3A077B4C1C4641A500DBEA9E /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3A077B4D1C4641A500DBEA9E /* others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		3A077B4E1C4641A500DBEA9E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B4F1C4641A500DBEA9E /* 切图 */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3A077B4F1C4641A500DBEA9E /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B501C4641A500DBEA9E /* 伙伴圈切图 */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		3A077B501C4641A500DBEA9E /* 伙伴圈切图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "伙伴圈切图";
+			sourceTree = "<group>";
+		};
+		3A077B581C4641A500DBEA9E /* 今日大课 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B591C4641A500DBEA9E /* controllers */,
+				3A077B5A1C4641A500DBEA9E /* models */,
+				3A077B5B1C4641A500DBEA9E /* others */,
+				3A077B5C1C4641A500DBEA9E /* views */,
+			);
+			path = "今日大课";
+			sourceTree = "<group>";
+		};
+		3A077B591C4641A500DBEA9E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		3A077B5A1C4641A500DBEA9E /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3A077B5B1C4641A500DBEA9E /* others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		3A077B5C1C4641A500DBEA9E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B5D1C4641A500DBEA9E /* 切图 */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3A077B5D1C4641A500DBEA9E /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B5E1C4641A500DBEA9E /* 今日大课切图 */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		3A077B5E1C4641A500DBEA9E /* 今日大课切图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "今日大课切图";
+			sourceTree = "<group>";
+		};
+		3A077B5F1C4641A500DBEA9E /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B601C4641A500DBEA9E /* controllers */,
+				3A077B611C4641A500DBEA9E /* models */,
+				3A077B621C4641A500DBEA9E /* others */,
+				3A077B631C4641A500DBEA9E /* views */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		3A077B601C4641A500DBEA9E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC46401C4646FF001CC07C /* LEOMyControllerTableViewController.h */,
+				0ACC46411C4646FF001CC07C /* LEOMyControllerTableViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		3A077B611C4641A500DBEA9E /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3A077B621C4641A500DBEA9E /* others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		3A077B631C4641A500DBEA9E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B641C4641A500DBEA9E /* 切图 */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3A077B641C4641A500DBEA9E /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B651C4641A500DBEA9E /* 我切图 */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		3A077B651C4641A500DBEA9E /* 我切图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我切图";
+			sourceTree = "<group>";
+		};
+		3A077B661C4641A500DBEA9E /* main(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B671C4641A500DBEA9E /* controllers */,
+				3A077B681C4641A500DBEA9E /* models */,
+				3A077B691C4641A500DBEA9E /* others */,
+				3A077B6A1C4641A500DBEA9E /* views */,
+			);
+			path = "main(主框架)";
+			sourceTree = "<group>";
+		};
+		3A077B671C4641A500DBEA9E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A077BA11C46443500DBEA9E /* LEOMainTabBarController.h */,
+				3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */,
+				3A077BA41C46444E00DBEA9E /* LEOMainNavController.h */,
+				3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		3A077B681C4641A500DBEA9E /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		3A077B691C4641A500DBEA9E /* others */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B9B1C46434000DBEA9E /* AppDelegate.h */,
+				3A077B9C1C46434000DBEA9E /* AppDelegate.m */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		3A077B6A1C4641A500DBEA9E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B6B1C4641A500DBEA9E /* 切图 */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		3A077B6B1C4641A500DBEA9E /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B6C1C4641A500DBEA9E /* 菜单栏切图 */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		3A077B6C1C4641A500DBEA9E /* 菜单栏切图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "菜单栏切图";
+			sourceTree = "<group>";
+		};
+		46751E2D1C464F9700362E8A /* 即时答 */ = {
+			isa = PBXGroup;
+			children = (
+				46751E2E1C464F9700362E8A /* controlleres */,
+				46751E311C464F9700362E8A /* modeles */,
+				46751E341C464F9700362E8A /* tooles */,
+				46751E351C464F9700362E8A /* views */,
+			);
+			path = "即时答";
+			sourceTree = "<group>";
+		};
+		46751E2E1C464F9700362E8A /* controlleres */ = {
+			isa = PBXGroup;
+			children = (
+				46751E2F1C464F9700362E8A /* GDNAnswerController.h */,
+				46751E301C464F9700362E8A /* GDNAnswerController.m */,
+			);
+			path = controlleres;
+			sourceTree = "<group>";
+		};
+		46751E311C464F9700362E8A /* modeles */ = {
+			isa = PBXGroup;
+			children = (
+				46751E321C464F9700362E8A /* GDAnswerModel.h */,
+				46751E331C464F9700362E8A /* GDAnswerModel.m */,
+			);
+			path = modeles;
+			sourceTree = "<group>";
+		};
+		46751E341C464F9700362E8A /* tooles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tooles;
+			sourceTree = "<group>";
+		};
+		46751E351C464F9700362E8A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				46751E361C464F9700362E8A /* answerNow.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A0778FF1C4622AF00DBEA9E /* LearningCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0779171C4622AF00DBEA9E /* Build configuration list for PBXNativeTarget "LearningCircle" */;
+			buildPhases = (
+				3A0778FC1C4622AF00DBEA9E /* Sources */,
+				3A0778FD1C4622AF00DBEA9E /* Frameworks */,
+				3A0778FE1C4622AF00DBEA9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningCircle;
+			productName = LearningCircle;
+			productReference = 3A0779001C4622AF00DBEA9E /* LearningCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A0778F81C4622AF00DBEA9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LEO;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = zz;
+				TargetAttributes = {
+					3A0778FF1C4622AF00DBEA9E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A0778FB1C4622AF00DBEA9E /* Build configuration list for PBXProject "LearningCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A0778F71C4622AF00DBEA9E;
+			productRefGroup = 3A0779011C4622AF00DBEA9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A0778FF1C4622AF00DBEA9E /* LearningCircle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A0778FE1C4622AF00DBEA9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0779101C4622AF00DBEA9E /* Assets.xcassets in Resources */,
+				46751E391C464F9700362E8A /* answerNow.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A0778FC1C4622AF00DBEA9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */,
+<<<<<<< HEAD
+				0ACC46421C4646FF001CC07C /* LEOMyControllerTableViewController.m in Sources */,
+=======
+				46751E371C464F9700362E8A /* GDNAnswerController.m in Sources */,
+				46751E381C464F9700362E8A /* GDAnswerModel.m in Sources */,
+>>>>>>> origin/master
+				3A0779051C4622AF00DBEA9E /* main.m in Sources */,
+				3A077BA31C46443500DBEA9E /* LEOMainTabBarController.m in Sources */,
+				3A077BA61C46444E00DBEA9E /* LEOMainNavController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A0779151C4622AF00DBEA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A0779161C4622AF00DBEA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A0779181C4622AF00DBEA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LearningCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.LearningCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A0779191C4622AF00DBEA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LearningCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.LearningCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A0778FB1C4622AF00DBEA9E /* Build configuration list for PBXProject "LearningCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0779151C4622AF00DBEA9E /* Debug */,
+				3A0779161C4622AF00DBEA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0779171C4622AF00DBEA9E /* Build configuration list for PBXNativeTarget "LearningCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0779181C4622AF00DBEA9E /* Debug */,
+				3A0779191C4622AF00DBEA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A0778F81C4622AF00DBEA9E /* Project object */;
+}
